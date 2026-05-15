@@ -18,9 +18,6 @@ import sys
 import xlsxwriter
 import math
 
-#sys.path.insert(1, '/home/mhasanaa')
-# path = 'C:/Users/Hasan/HKUST/Haibin SU - group - covid19/SingleSiteAnalysis'
-# sys.path.insert(1, path)
 import ImportantFunc as Imp
 def Unique_pair_func(mutList): return [ mutList[i]+"|"+mutList[j] for i in range(len(mutList)) for j in range(len(mutList)) if i < j  ]
 
