@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import sys
 from tensorly.decomposition import tucker
-sys.path.insert(1, '/Users/japhertjpeg/Library/CloudStorage/OneDrive-共用文件庫－HKUST/Haibin SU - group - covid19/SingleSiteAnalysis')
+sys.path.insert(1, 'SingleSiteAnalysis')
 import ImportantFunc as Imp
 def Unique_pair_func(mutList): return [ mutList[i]+"|"+mutList[j] for i in range(len(mutList)) for j in range(len(mutList)) if i < j  ]
 
