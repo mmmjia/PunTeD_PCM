@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 30 15:28:23 2023
-
-@author: Hasan
-"""
 import argparse
 import pandas as pd
 import numpy as np
